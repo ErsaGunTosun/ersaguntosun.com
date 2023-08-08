@@ -14,7 +14,7 @@ function App() {
       <div className='row flex-fill'>
         <div className='col'></div>
        
-        <Projects />
+        <Personel />
 
         <div className='col'></div>
       </div>
