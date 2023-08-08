@@ -103,7 +103,6 @@ function Home() {
                             <p>ebru[at]ebrukaya.me 📮</p>
                         </div>
                     </div>
-
                 </div>
 
             </div>
