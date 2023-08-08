@@ -3,6 +3,7 @@ import React from 'react';
 // Pages 
 import Home from './pages/Home.js';
 import Journey from './pages/Journey.js';
+import TechStack from './pages/TechStack.js';
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
       <div className='row flex-fill'>
         <div className='col'></div>
        
-        <Journey /> 
+        <TechStack />
 
         <div className='col'></div>
       </div>
