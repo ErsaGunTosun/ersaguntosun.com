@@ -7,8 +7,8 @@ function TechStack() {
     return (
         <div className='col-9 d-flex flex-column'>
             <Header />
-            <div className='bg-secondary container flex-fill w-100 h-100'>
-                <div className='mt-4 px-5 p-0 bg-danger'>
+            <div className='container flex-fill w-100 h-100'>
+                <div className='mt-4 px-5 p-0'>
                     <h1 className='text-start'>Tech Stack</h1>
                     <lu>
                         <li className='fs-5 my-3 p-0'>I'm currently focused on JavaScript, TypeScript with React and React Native on the frontend, Node.js on the backend with REST / GraphQL</li>

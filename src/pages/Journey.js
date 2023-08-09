@@ -7,8 +7,8 @@ function Journey() {
     return (
         <div className='col-9 d-flex flex-column'>
             <Header />
-            <div className='bg-secondary container flex-fill w-100 h-100'>
-                <div className='mt-4 px-5 p-0 bg-danger'>
+            <div className='container flex-fill w-100 h-100'>
+                <div className='mt-4 px-5 p-0'>
                     <h1>the journey</h1>
                     <div className='mt-4'>
                         <h5>Present</h5>

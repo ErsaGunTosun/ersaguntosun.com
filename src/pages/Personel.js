@@ -20,8 +20,8 @@ function Personel() {
     return (
         <div className='col-9 d-flex flex-column'>
             <Header />
-            <div className='bg-secondary container flex-fill w-100 h-100'>
-                <div className='mt-4 px-5 p-0 bg-danger'>
+            <div className='container flex-fill w-100 h-100'>
+                <div className='mt-4 px-5 p-0 '>
                     <h1 className='text-start'>personel</h1>
                     <p className='fs-5 mt-4'>
                         "It doesn’t interest me what you do for a living.
@@ -52,8 +52,8 @@ function Personel() {
                         <WorldMap
                             data={data}
                             size="responsive"
-                            color='white'
-                            frameColor='white'
+                            color='lightgreen'
+                            frameColor='red'
                             borderColor="black"
                             strokeOpacity={1}
                             backgroundColor='transparent'
