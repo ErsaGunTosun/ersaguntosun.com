@@ -9,6 +9,9 @@ module.exports = {
       maxWidth: {
         'mdx': '770px',
       },
+      width: {
+        '18': '72px',
+      },
       padding: {
         '5.5': '1.45rem',
       },
