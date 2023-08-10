@@ -13,9 +13,22 @@ module.exports = {
         '5.5': '1.45rem',
       },
       fontSize: {
-        '1.5xl':"22px",
-        '2.5xl':"26px",
+        '1.5xl': "22px",
+        '2.5xl': "26px",
       },
+      borderWidth: {
+        '3':'3px'
+      },
+      backgroundColor:
+      {
+        "tech-item":'#f7f7f7'
+      },
+
+    },
+    listStyleType: {
+      none: 'none',
+      square: 'square',
+      roman: 'upper-roman',
     },
     screens: {
       'sm': '640px',
