@@ -8,16 +8,13 @@ import Projects from './pages/Projects.js';
 import Personel from './pages/Personel.js';
 
 
-import './style.css'
-
-
 function App() {
   return (
     <div className="container h-100 w-100 d-flex flex-fill">
       <div className='row flex-fill'>
         <div className='col'></div>
-       
-        <Home />
+        
+        <Personel />
 
         <div className='col'></div>
       </div>

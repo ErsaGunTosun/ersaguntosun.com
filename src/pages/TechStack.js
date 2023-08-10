@@ -9,10 +9,10 @@ function TechStack() {
             <Header />
             <div className='container flex-fill w-100 h-100'>
                 <div className='mt-4 px-5 p-0'>
-                    <h1 className='text-start'>Tech Stack</h1>
+                    <h1 className='text-start fw-bold'>tech stack</h1>
                     <lu>
-                        <li className='fs-5 my-3 p-0'>I'm currently focused on JavaScript, TypeScript with React and React Native on the frontend, Node.js on the backend with REST / GraphQL</li>
-                        <li className='fs-5 my-3 p-0'>I have some knowledge on Docker for containerization and AWS services to build full stack applications.</li>
+                        <li className='fs-5 lh-lg my-3 p-0'>I'm currently focused on <span className='tech-item'>JavaScript</span>, <span className='tech-item'>TypeScript</span> with <span className='tech-item'>React</span> and <span className='tech-item'>React Native</span>on the frontend, <span className='tech-item'>Node.js</span> on the backend with <span className='tech-item'>REST / GraphQl</span></li>
+                        <li className='fs-5 my-3 p-0'>I have some knowledge on <span className='tech-item'>Docker</span> for containerization and <span className='tech-item'>AWS</span> services to build full stack applications.</li>
                         <li className='fs-5 my-3 p-0'>I'm familiar with Agile Methodologies using Scrum and Kanban</li>
                         <li className='fs-5 my-3 p-0'>I might also have a bit sense of UI/UX Design</li>
                     </lu>

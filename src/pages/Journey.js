@@ -9,17 +9,17 @@ function Journey() {
             <Header />
             <div className='container flex-fill w-100 h-100'>
                 <div className='mt-4 px-5 p-0'>
-                    <h1>the journey</h1>
+                    <h1 className='fw-bold'>the journey</h1>
                     <div className='mt-4'>
-                        <h5>Present</h5>
-                        <p className='m-0 my-1 p-0 fs-5'>Senior Frontend Engineer at RoomPriceGenie 🧞 (Aug 2023 – )</p>
-                        <p className='m-0 my-1 p-0 fs-5'>Running a design and software studio called Noe Crafts since June of 2020.</p>
-                        <p className='m-0 my-1 p-0 fs-5'>Joined as Co-Founder at Assistive Cards. Helping the growth of the.</p>
-                        <p className='m-0 my-1 p-0 fs-5'>Investing in stocks and startups.</p>
+                        <h5 className='fw-bold'>Present</h5>
+                        <p className='m-0 my-3 p-0 fs-5'>Senior Frontend Engineer at <span className='fw-bold'>RoomPriceGenie</span> 🧞 (Aug 2023 – )</p>
+                        <p className='m-0 my-3 p-0 fs-5'>Running a design and software studio called <span className='fw-bold'>Noe Crafts</span> since June of 2020.</p>
+                        <p className='m-0 my-3 p-0 fs-5'>Joined as Co-Founder at <span className='fw-bold'>Assistive Cards</span>. Helping the growth of the.</p>
+                        <p className='m-0 my-3 p-0 fs-5'>Investing in stocks and startups.</p>
                     </div>
 
                     <div className='mt-4'>
-                        <h5>Past</h5>
+                        <h5 className='fw-bold'>Past</h5>
                         <p className='m-0 my-2 p-0 fs-5'>🥦 Senior Frontend Engineer at Cara Care. (Nov 2021 – Apr 2023)</p>
                         <p className='m-0 my-2 p-0 fs-5'>🛵 Frontend Engineer at Getir. (Dec 2019 – Jun 2020)</p>
                         <p className='m-0 my-2 p-0 fs-5'>🕹 Software Engineer at Sony.</p>
