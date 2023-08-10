@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
 
 // Pages 
 import Home from './pages/Home.js';
@@ -10,15 +11,15 @@ import Personel from './pages/Personel.js';
 
 function App() {
   return (
-    <div className="container h-100 w-100 d-flex flex-fill">
-      <div className='row flex-fill'>
-        <div className='col'></div>
-        
-        <Personel />
-
-        <div className='col'></div>
-      </div>
-    </div >
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/journey' element={<Journey />} />
+        <Route path='/tech-stack' element={<TechStack />} />
+        <Route path='/projects' element={<Projects />} />
+        <Route path='/personel' element={<Personel />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
