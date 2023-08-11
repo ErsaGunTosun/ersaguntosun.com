@@ -1,12 +1,13 @@
 import React from 'react'
 
-//logo
-import logo from '../images/profil.png'
-
 // Components
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 import ArticleCard from '../components/ArticleCard.js';
+
+//assets
+import logo from '../assets/images/profil.png'
+
 
 function Home() {
     return (

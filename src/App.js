@@ -7,7 +7,7 @@ import Journey from './pages/Journey.js';
 import TechStack from './pages/TechStack.js';
 import Projects from './pages/Projects.js';
 import Personel from './pages/Personel.js';
-
+import NotFound from './pages/NotFound.js';
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
         <Route path='/tech-stack' element={<TechStack />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/personel' element={<Personel />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   );

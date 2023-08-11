@@ -17,6 +17,7 @@ module.exports = {
       },
       fontSize: {
         'smx':'15px',
+        'lgx':'19px',
         '1.5xl': "22px",
         '2.5xl': "26px",
       },
@@ -25,9 +26,14 @@ module.exports = {
       },
       backgroundColor:
       {
-        "tech-item":'#f7f7f7'
+        "tech-item":'#f7f7f7',
+        "tooltip":'#616161',
       },
-
+      invert: {
+        25: '.25',
+        50: '.5',
+        75: '.75',
+      }
     },
     listStyleType: {
       none: 'none',
