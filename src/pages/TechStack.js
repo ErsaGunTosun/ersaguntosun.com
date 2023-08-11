@@ -6,7 +6,7 @@ import Footer from '../components/Footer'
 function TechStack() {
     return (
         <div className='flex'>
-            <div className='grow mt-10 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>
+            <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>
                 <Header islogo={true} ispage={'tech-stack'} />
                 <div className='mt-10'>
                     <h1 className='text-4xl font-bold mb-6'>tech stack</h1>
