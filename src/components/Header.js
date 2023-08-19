@@ -4,7 +4,7 @@ function Header({ islogo, ispage }) {
     return (
         <div className='flex flex-row pb-5 justify-center w-100 mb-5'>
             <div className='flex-grow-1 m-0 p-0 basis-1/4'>
-                <a href='/' className={` m-0 p-0 ms-4 text-lg font-semibold`}>{islogo ? "ebrukaya." : ""}</a>
+                <a href='/' className={` m-0 p-0 ms-4 text-lg font-semibold`}>{islogo ? "ersaguntosun." : ""}</a>
             </div>
             <div className='text-end w-auto basis-3/4 hidden mdx:block tracking-tighter'>
                 <a href='/journey' className={`mr-2 text-lg ${ispage === 'journey' ? 'underline decoration-black font-semibold' : ''}`}>journey</a>

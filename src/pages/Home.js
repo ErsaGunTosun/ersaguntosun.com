@@ -17,9 +17,8 @@ function Home() {
                 <div className='flex mt-2'>
                     <div className='m-0 p-0 text-justify'>
                         <h1 className='text-4xl font-bold mb-6'>Hi, I'm ErsaGun.</h1>
-                        {/* <h3 className='text-1.5xl font-semibold my-1 tracking-tight'>Sr. Frontend Engineer at <strong>RoomPriceGenie</strong> 🧞</h3>
-                        <h3 className='text-1.5xl font-semibold my-1 tracking-tight'>Founder at <strong>Noe Crafts</strong> 🍃</h3>
-                        <h3 className='text-1.5xl font-semibold my-1 tracking-tight'>Co-Founder at <strong>Assistive Cards</strong> 🐥</h3> */}
+                        <h3 className='text-1.5xl font-semibold my-1 tracking-tight'><strong>Full Stack Developer</strong> 💻</h3>
+                        <h3 className='text-1.5xl font-semibold my-1 tracking-tight'>Student at <strong>Selcuk Universty</strong> 🏫</h3>
                         <p className='my-6 text-lg text-justify sm:pr-9 tracking-tighter'>
                             I have always been so curious about the whole software development cycle, from just an idea to the journey of bringing it to life.
                             Therefore spending my time improving myself in full stack development
