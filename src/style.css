@@ -681,6 +681,21 @@ html{
   margin-bottom: 2rem;
 }
 
+.mx-4 {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -1151,7 +1166,24 @@ html{
   }
 }
 
+@media (min-width: 768px) {
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
 @media (min-width: 900px) {
+  .mdx\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .mdx\:block {
     display: block;
   }

@@ -27,7 +27,7 @@ function Header({ islogo, ispage }) {
             {
                 isMenuOpen ? (
                     <div className='absolute flex-grow-1 w-full h-full text-end bg-white'>
-                        <div className='block mdx:hidden basis-3/4 w-auto text-end px-4 '>
+                        <div className='block mdx:hidden basis-3/4 w-auto text-end px-4'>
                             <i className={`${!isMenuOpen ? 'fa-sharp fa-solid fa-bars' : 'fa-solid fa-xmark'}  text-2xl me-4 hover:text-gray-600`} onClick={changeMenu}></i>
                             <div className='flex-row text-start'>
                                 <p><a href='/journey' className={`basis-1 mr-2 text-lg ${ispage === 'journey' ? 'underline decoration-black font-semibold' : ''}`}>journey</a></p>

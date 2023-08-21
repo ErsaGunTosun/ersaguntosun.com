@@ -18,7 +18,7 @@ function TechStack() {
                 <div className='mt-10'>
                     <h1 className='text-4xl font-bold mb-6'>tech stack</h1>
                     
-                    <ul className='list-square text-lg tracking-tighter'>
+                    <ul className='list-square text-lg tracking-tighter mx-5'>
                         <li className='m-0 p-0'>
                             I'm currently focused on
                             <span className='border-b-3 border-yellow-300 rounded-b-sm bg-tech-item px-1 mx-1 font-bold'> JavaScript </span>,
