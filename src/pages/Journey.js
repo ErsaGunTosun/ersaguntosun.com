@@ -4,9 +4,6 @@ import React from 'react'
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
-// assets
-import Nlogo from '../assets/images/n.jpeg'
-
 function Journey() {
     return (
         <div className='flex'>
