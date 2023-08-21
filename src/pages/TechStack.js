@@ -11,7 +11,7 @@ function TechStack() {
                 <Header islogo={true} ispage={'tech-stack'} />
                 <div className='mt-10'>
                     <h1 className='text-4xl font-bold mb-6'>tech stack</h1>
-
+                    
                     <lu className='list-square text-lg tracking-tighter'>
                         <li className='m-0 p-0'>
                             I'm currently focused on
