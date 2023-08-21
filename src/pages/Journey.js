@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+// utils
+import ChangeTitle from '../utils/DynamicTitle.js';
 
 // components
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
 function Journey() {
+
+    useEffect(() => {
+        ChangeTitle('Journey - ErsaGun Tosun');
+    }, [])
+
     return (
         <div className='flex'>
             <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>
@@ -15,15 +23,15 @@ function Journey() {
                         <h5 className='font-bold'>Present</h5>
                         <div className='flex items-center'>
                             <div className='text-justify m-0 p-0'>
-                                <p className='m-0 mt-3 mb-4 p-0'> 💻 <span className='font-bold'>Full Stack Developer</span> as Freelancer <span className='italic text-smx text-gray-400'>(Jun - 2023 – )</span></p>
-                                <p className='m-0 mt-3 mb-4 p-0'> 🏫 Student at <span className='font-bold'>Selcuk University</span> <span className='italic text-smx text-gray-400'>(Sep 2022 – )</span></p>
+                                <p className='m-0 mt-3 mb-4 p-0'>💻<span className='font-bold'><a className='hover:text-gray-600' target='_blank' href='https://twitter.com/ErsaGunTosun'>Full Stack Developer</a></span> as Freelancer <span className='italic text-smx text-gray-400'>(Jun - 2023 – )</span></p>
+                                <p className='m-0 mt-3 mb-4 p-0'>🏫 Student at <span className='font-bold'>Selcuk University</span> <span className='italic text-smx text-gray-400'>(Sep 2022 – )</span></p>
                             </div>
                         </div>
                     </div>
 
                     <div className='mt-4 text-lg'>
                         <h5 className='font-bold text-lg'>Past</h5>
-                        <p>🏅 I successfully completed the pool training of <strong>42 Ecole</strong>. <span className='italic text-smx text-gray-400'>(Jul 2023 – Aug 2023)</span></p>
+                        <p>🏅 I successfully completed the pool training of <strong><a className='hover:text-gray-600' target='_blank' href='https://42.fr/'>42 Ecole</a></strong>. <span className='italic text-smx text-gray-400'>(Jul 2023 – Aug 2023)</span></p>
                         <p className='m-0 my-4 p-0'>🐣 My interest in software development started at a young age when I was trying to design a website from free providers, then I built many websites and experimented with new technologies. </p>
                     </div>
 

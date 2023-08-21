@@ -1,4 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+// utils
+import ChangeTitle from '../utils/DynamicTitle.js';
 
 // components
 import Header from '../components/Header.js';
@@ -7,6 +10,9 @@ import SevenWonders from '../components/SevenWonders.js'
 import World from '../components/World.js';
 
 function Personel() {
+    useEffect(() => {
+        ChangeTitle('Personel - ErsaGun Tosun');
+    }, [])
     return (
         <div className='flex'>
             <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>

@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useEffect} from 'react'
+
+// utils
+import ChangeTitle from '../utils/DynamicTitle.js';
 
 // components
 import Header from '../components/Header.js'
 import Footer from '../components/Footer'
 
 function TechStack() {
+    useEffect(() => {
+        ChangeTitle('Tech Stack - ErsaGun Tosun');
+    }, [])
     return (
         <div className='flex'>
             <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>
@@ -12,7 +18,7 @@ function TechStack() {
                 <div className='mt-10'>
                     <h1 className='text-4xl font-bold mb-6'>tech stack</h1>
                     
-                    <lu className='list-square text-lg tracking-tighter'>
+                    <ul className='list-square text-lg tracking-tighter'>
                         <li className='m-0 p-0'>
                             I'm currently focused on
                             <span className='border-b-3 border-yellow-300 rounded-b-sm bg-tech-item px-1 mx-1 font-bold'> JavaScript </span>,
@@ -31,7 +37,7 @@ function TechStack() {
                             <span className='font-bold'> Golang</span>,
                             <span className='font-bold'> GraphQL </span>
                         </li>
-                    </lu>
+                    </ul>
                 </div>
                 <hr className='my-8 opacity-20' />
                 <Footer />

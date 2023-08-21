@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+
+// utils
+import ChangeTitle from '../utils/DynamicTitle.js';
 
 // components
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
 
 function NotFound() {
+    useEffect(() => {
+        ChangeTitle('404 NOT FOUND - ErsaGun Tosun');
+    }, [])
     return (
         <div className='flex'>
             <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>
