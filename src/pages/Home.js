@@ -3,7 +3,6 @@ import React, { useEffect } from 'react'
 // utils
 import ChangeTitle from '../utils/DynamicTitle.js';
 
-
 // Components
 import Header from '../components/Header.js';
 import Footer from '../components/Footer.js';
@@ -12,17 +11,14 @@ import ArticleCard from '../components/ArticleCard.js';
 //assets
 import logo from '../assets/images/profil.jpg'
 
-
 function Home() {
-    
     useEffect(() => {
         ChangeTitle('Home - ErsaGun Tosun');
     }, [])
-
     return (
-        <div className='flex'>
-            <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4 pb-5.5'>
-                <Header islogo={false} ispage={''} />
+        <div className='flex' style={{ overflow: 'hidden' }}>
+            <div className='grow my-11 mx-auto max-w-mdx pt-0 px-4'>
+                <Header islogo={false} ispage={'home'} />
                 <div className='flex mt-2'>
                     <div className='m-0 p-0 text-justify'>
                         <h1 className='text-4xl font-bold mb-6'>Hi, I'm ErsaGun.</h1>

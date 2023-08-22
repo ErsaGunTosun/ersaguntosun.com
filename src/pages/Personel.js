@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 
 // utils
 import ChangeTitle from '../utils/DynamicTitle.js';
@@ -19,8 +19,9 @@ function Personel() {
                 <Header islogo={true} ispage={'personel'} />
                 <div className='mt-10'>
                     <h1 className='text-4xl font-bold mb-6'>personel</h1>
-                    <div className='mt-10 text-lg font-normal tracking-tighter'>
-                        <p className='font-bold'> Personality type: INTJ-T</p>
+                    <div className='mt-10 text-xl font-normal tracking-tighter text-start'>
+                        <p className='font-bold'>🦠Community of eukaryotic cells</p>
+                        {/* <p className='font-bold'> Personality type: INTJ-T</p> */}
                     </div>
 
                     {/* 

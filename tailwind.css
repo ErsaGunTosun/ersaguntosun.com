@@ -5,9 +5,18 @@
     --secondary: #ececff;
 }
 
-html{
-    scroll-behavior: smooth;
-    overflow-y: scroll;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth !important;
+    font-family: 'Muli', sans-serif !important;
+}
+
+::selection {
+    background-color: #ececff;
+    color: unset;
 }
 
 /* Firefox */
