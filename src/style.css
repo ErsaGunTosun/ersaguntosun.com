@@ -624,6 +624,10 @@ body {
   background-color: var(--secondary);
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -784,6 +788,10 @@ body {
   height: fit-content;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .h-full {
   height: 100%;
 }
@@ -798,6 +806,10 @@ body {
 
 .w-auto {
   width: auto;
+}
+
+.w-screen {
+  width: 100vw;
 }
 
 .w-full {
@@ -937,6 +949,11 @@ body {
   border-color: rgb(253 224 71 / var(--tw-border-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-tech-item {
   --tw-bg-opacity: 1;
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
@@ -971,6 +988,10 @@ body {
 
 .pb-5\.5 {
   padding-bottom: 1.45rem;
+}
+
+.pb-52 {
+  padding-bottom: 13rem;
 }
 
 .pt-0 {
@@ -1039,14 +1060,14 @@ body {
   font-size: 15px;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
