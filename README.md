@@ -27,7 +27,6 @@ This website is built using the following technologies:
 - **Portfolio:** View my projects, skills, and previous work experiences.
 - **Interactive Elements:** Experience smooth interactions and dynamic content.
 - **Responsive Design:** The website is optimized for various devices and screen sizes.
-- **[Additional Feature]:** (Describe any unique feature of your website)
 
 ## Contributing
 
