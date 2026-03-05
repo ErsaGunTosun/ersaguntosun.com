@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "company": "Link Robotics",
+        "role": "Robotic Engineer Intern",
+        "period": "Feb 2026 – Present",
+        "location": "Kocaeli, Turkey (On-site)",
+        "description": "Currently working full-time on autonomous systems and robotics engineering.",
+        "tags": [
+            "Robotics",
+            "ROS 2",
+            "C++",
+            "Python"
+        ]
+    },
+    {
+        "id": 2,
+        "company": "NOKTASAL YAZILIM",
+        "role": "Software Engineer Intern",
+        "period": "Jul 2025 – Aug 2025",
+        "location": "Kocaeli, Turkey (On-site)",
+        "description": "Worked as a software engineering intern contributing to on-site projects.",
+        "tags": [
+            "Software Engineering"
+        ]
+    },
+    {
+        "id": 3,
+        "company": "TRT",
+        "role": "Information Technology Internship",
+        "period": "Jul 2024 – Aug 2024",
+        "location": "Istanbul, Turkey (On-site)",
+        "description": "Completed a one-month summer IT internship focusing on system operations.",
+        "tags": [
+            "Active Directory",
+            "Sysops"
+        ]
+    },
+    {
+        "id": 4,
+        "company": "Sola Store",
+        "role": "Full Stack Developer",
+        "period": "Aug 2022 – Oct 2022",
+        "location": "Istanbul, Turkey (On-site)",
+        "description": "Developed a live chat widget for customer support. Built the backend infrastructure and integrated APIs.",
+        "tags": [
+            "Web Services API",
+            "JavaScript",
+            "React",
+            "Node.js"
+        ]
+    }
+]

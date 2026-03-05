@@ -1,0 +1,10 @@
+[
+    {
+        "id": 1,
+        "school": "Selçuk University",
+        "degree": "Bachelor of Science in Computer Engineering",
+        "period": "2022 – 2026",
+        "location": "Konya, Turkey",
+        "description": "Focused on software engineering, algorithms, and robotics."
+    }
+]

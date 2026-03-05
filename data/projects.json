@@ -1,0 +1,58 @@
+[
+    {
+        "id": 2,
+        "name": "Path Planner",
+        "description": "An advanced web-based robotic path planning system that combines real-world OpenStreetMap data with sophisticated navigation algorithms (A*, Dijkstra) and PID control for tracking.",
+        "tags": [
+            "React",
+            "Flask",
+            "Python",
+            "Path Planning"
+        ],
+        "github": "https://github.com/ErsaGunTosun/path-planner",
+        "url": null,
+        "year": "2025"
+    },
+    {
+        "id": 3,
+        "name": "Maze Solver on Gazebo",
+        "description": "ROS 2-based autonomous robot system for navigating and solving mazes in Gazebo simulation, featuring LiDAR-based perception, SLAM, and wall-following algorithms.",
+        "tags": [
+            "ROS 2",
+            "Gazebo",
+            "SLAM",
+            "Python"
+        ],
+        "github": "https://github.com/ErsaGunTosun/maze_solver_on_gazebo",
+        "url": null,
+        "year": "2025"
+    },
+    {
+        "id": 1,
+        "name": "Autonomous Parkour Drone",
+        "description": "An autonomous quadcopter system that navigates predefined courses using LiDAR, GPS, and an A* path planning algorithm with PID control in the Webots robotics simulation platform.",
+        "tags": [
+            "Python",
+            "Webots",
+            "A* Path Planning",
+            "PID Control"
+        ],
+        "github": "https://github.com/ErsaGunTosun/autonomous-parkour-drone",
+        "url": null,
+        "year": "2025"
+    },
+    {
+        "id": 4,
+        "name": "Autonomous Ackermann Model on Gazebo",
+        "description": "ROS 2 autonomous racing simulation for Ackermann vehicles featuring ArUco-based topological mapping and real-time adaptive reinforcement learning to optimize lap times.",
+        "tags": [
+            "ROS 2",
+            "Gazebo",
+            "Python",
+            "Reinforcement Learning"
+        ],
+        "github": "https://github.com/ErsaGunTosun/autonomous_ackermann_model_on_gazebo",
+        "url": null,
+        "year": "2026"
+    }
+]

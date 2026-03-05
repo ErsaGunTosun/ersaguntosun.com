@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Languages",
+    "items": [
+      "JavaScript",
+      "Python",
+      "C",
+      "C++"
+    ]
+  },
+  {
+    "category": "Frontend",
+    "items": [
+      "React",
+      "Next.js",
+      "Tailwind CSS",
+      "Bootstrap"
+    ]
+  },
+  {
+    "category": "Backend",
+    "items": [
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "MongoDB",
+      "PostgreSQL"
+    ]
+  },
+  {
+    "category": "Robotics",
+    "items": [
+      "ROS2",
+      "Linux",
+      "Gazebo",
+      "Webots",
+      "Matlab"
+    ]
+  },
+  {
+    "category": "Tools & Other",
+    "items": [
+      "Git",
+      "Docker"
+    ]
+  }
+]

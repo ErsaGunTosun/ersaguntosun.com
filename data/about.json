@@ -1,0 +1,23 @@
+{
+  "about": {
+    "name": "Ersagun Tosun",
+    "title": "Robotics Engineer",
+    "bio": "I'm Ersagun — a Computer Engineering student transitioning my 3-year background in full-stack web development into the world of robotics. I focus on building autonomous navigation systems using ROS 2 and Gazebo, bridging the gap between complex hardware and intuitive software solutions.",
+    "cvUrl": "#",
+    "email": "ersaguntosun@gmail.com",
+    "github": "https://github.com/ErsagunTosun",
+    "linkedin": "https://linkedin.com/in/fatihetosun"
+  },
+  "community": [
+    {
+      "title": "Raclab Sigun",
+      "subtitle": "Software Team Member (Dec 2025 – Present)",
+      "description": "2026 Robotaxi-Full Scale Autonomous Vehicle"
+    },
+    {
+      "title": "Selçuk University Cyber Security Community",
+      "subtitle": "Board Member (Nov 2023 – Jan 2025)",
+      "description": "Cyber security training and events"
+    }
+  ]
+}
